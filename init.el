@@ -126,7 +126,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-popup-kill-ring)
 
-(require 'init-undo-tree)
+; (require 'init-undo-tree)
 
 (require 'init-discover-my-major)
 
@@ -137,6 +137,10 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-dired)
 
 (require 'init-buffer)
+
+(require 'init-evil)
+
+; (require 'init-keybindings)
 
 ;; UI Enhancements
 (require 'init-ui-config)
@@ -178,6 +182,8 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-lsp)
 
+(require 'init-path)
+
 (require 'init-company)
 
 ;; Programming
@@ -187,16 +193,16 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-python)
 
-(require 'init-haskell)
+;; (require 'init-haskell)
 
-(require 'init-ess)
+;; (require 'init-ess)
 
-(require 'init-latex)
+;; (require 'init-latex)
 
 (require 'init-buildsystem)
 
 ;; Web Development
-(require 'init-webdev)
+;; (require 'init-webdev)
 
 ;; Office
 (require 'init-org)
@@ -221,11 +227,11 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-eww)
 
 ;; Miscellaneous
-(require 'init-chinese)
+;; (require 'init-chinese)
 
-(require 'init-games)
+;; (require 'init-games)
 
-(require 'init-epaint)
+;; (require 'init-epaint)
 
 (require 'init-zone)
 

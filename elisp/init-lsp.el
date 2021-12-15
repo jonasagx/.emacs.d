@@ -76,7 +76,9 @@
         ("M-i" . lsp-ui-doc-focus-frame))
   (:map lsp-mode-map
         ("M-n" . forward-paragraph)
-        ("M-p" . backward-paragraph))
+        ("M-p" . backward-paragraph)
+        ("g D" . lsp-ui-peek-find-references)
+        ("g d" . lsp-ui-peek-find-definition))
   :custom
   (lsp-ui-doc-header t)
   (lsp-ui-doc-include-signature t)
